@@ -12,11 +12,11 @@ plugins: [jekyll-paginate]
 paginate: 5
 disqus_shortname: nazmul-hasan
 navigation:
-  - title: Home
+  - title: হোম
     url: /index.html
-  - title: About
+  - title: আমার সম্পর্কে
     url: /about
-  - title: Contact
+  - title: যোগাযোগ
     url: /contact
 
 social:
