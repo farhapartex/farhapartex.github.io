@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Long Haul
+title: আমার সম্পর্কে
 
 ---
 ## আমার সম্পর্কে
