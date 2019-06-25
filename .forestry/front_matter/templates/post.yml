@@ -24,3 +24,5 @@ fields:
     min: 
     max: 
   label: Tags
+pages:
+- _posts/ডাটা-স্ট্র্যাকচারের-তালিকাসমূহ.md
