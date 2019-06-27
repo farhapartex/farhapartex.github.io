@@ -2,11 +2,16 @@
 label: Post
 hide_body: false
 fields:
+- type: file
+  name: image
+  label: image
 - type: text
   name: layout
   label: layout
   default: post
   hidden: false
+  config:
+    required: true
 - type: text
   name: title
   label: title
@@ -15,9 +20,6 @@ fields:
   name: date
   label: date
   default: now
-- type: file
-  name: image
-  label: image
 - name: tags
   type: list
   config:
