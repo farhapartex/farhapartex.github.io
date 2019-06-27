@@ -25,4 +25,5 @@ fields:
     max: 
   label: Tags
 pages:
+- _posts/data-levels-of-measurement.md
 - _posts/2019-06-25-ডাটা-স্ট্র্যাকচারের-তালিকাসমূহ.md
