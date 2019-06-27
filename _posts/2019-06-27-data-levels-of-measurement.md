@@ -59,6 +59,17 @@ tags:
 
 এই ছিল চার ধরনের Data levels of measurement। এবার এদের সবাই কে দিয়ে কি কি করা যায় তার একটা তালিকা একসাথে দেখি।
 
+    Features | Nominal | Ordinal | Interval | Ratio
+    -------- | ------- | ------- | -------- | -----
+    The sequence of variable is established | - | Yes | Yes | Yes
+    Mode | Yes | Yes | Yes | Yes
+    Median | - | Yes | Yes | Yes
+    Mean | - | - | Yes | Yes
+    Difference between variables can be evaluated | - | - | Yes | Yes
+    Addition & Subtraction of variables | - | - | Yes | Yes
+    Multiplication & Division of variables | - | - | - | Yes
+    Absolute Zero | - | - | - | Yes
+
 ![](/uploads/level_of_measurement.png)
 
 ছবিটা ইন্টারনেট থেকে সংগৃহীত।
