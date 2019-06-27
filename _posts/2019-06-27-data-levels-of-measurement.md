@@ -54,18 +54,18 @@ tags:
 \- ৬ ফুটের বেশি
 
 খেয়াল করে দেখা যাবে ডাটাসেটে একটা ক্রম আছে এবং ডাটার মাঝের গ্যাপ টুকু বুঝা যায়। এবার প্রথম উদাহরণ টা বুঝার চেষ্টা করি।  
-৫ ফুটের কম । এখানে উচ্চতা ০ হতে পারে। যদি কারো উচ্চতা ০ হয় এর মানে হল তার কোন অস্তিত্ব নাই। অর্থ্যাৎ **_" true zero"_** এখানে সত্য।  
+৫ ফুটের কম । এখানে উচ্চতা ০ হতে পারে। যদি কারো উচ্চতা ০ হয় এর মানে হল তার কোন অস্তিত্ব নাই। অর্থাৎ **_"true zero"_** এখানে সত্য।  
 ৫ ফুট ৩ ইঞ্চি থেকে ৬ ফুট এর মাঝে এই উদাহরণে দুইটা উচ্চতার মাঝের পার্থক্য হিসাব করা যায়।
 
 এই ছিল চার ধরনের Data levels of measurement। এবার এদের সবাই কে দিয়ে কি কি করা যায় তার একটা তালিকা একসাথে দেখি।
 
-Features | Nominal | Ordinal | Interval | Ratio
--------- | ------- | ------- | -------- | -----
-The sequence of variable is established | - | Yes | Yes | Yes
-Mode | Yes | Yes | Yes | Yes
-Median | - | Yes | Yes | Yes
-Mean | - | - | Yes | Yes
-Difference between variables can be evaluated | - | - | Yes | Yes
-Addition & Subtraction of variables | - | - | Yes | Yes
-Multiplication & Division of variables | - | - | - | Yes
-Absolute Zero | - | - | - | Yes
+| Features | Nominal | Ordinal | Interval | Ratio |
+| --- | --- | --- | --- | --- |
+| The sequence of variable is established | - | Yes | Yes | Yes |
+| Mode | Yes | Yes | Yes | Yes |
+| Median | - | Yes | Yes | Yes |
+| Mean | - | - | Yes | Yes |
+| Difference between variables can be evaluated | - | - | Yes | Yes |
+| Addition & Subtraction of variables | - | - | Yes | Yes |
+| Multiplication & Division of variables | - | - | - | Yes |
+| Absolute Zero | - | - | - | Yes |
