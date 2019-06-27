@@ -26,4 +26,5 @@ fields:
     max: 
   label: Tags
 pages:
+- _posts/why-do-we-use-it.md
 - _posts/2019-06-25-ডাটা-স্ট্র্যাকচারের-তালিকাসমূহ.md
