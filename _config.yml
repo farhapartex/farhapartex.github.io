@@ -14,7 +14,7 @@ paginate: 5
 disqus_shortname: nazmul-hasan
 navigation:
   - title: হোম
-    url: /index.html
+    url: /home
   - title: আমার সম্পর্কে
     url: /about
   - title: যোগাযোগ
