@@ -3,13 +3,13 @@ label: Post
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
-  hidden: true
-- type: text
   name: layout
   label: layout
   default: post
+  hidden: false
+- type: text
+  name: title
+  label: title
   hidden: false
 - type: datetime
   name: date
