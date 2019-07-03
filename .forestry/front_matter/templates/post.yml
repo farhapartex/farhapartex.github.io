@@ -27,3 +27,5 @@ fields:
     min: 
     max: 
   label: Tags
+pages:
+- _posts/stack-এবং-প্লেটের-বাক্সের-গল্প.md
