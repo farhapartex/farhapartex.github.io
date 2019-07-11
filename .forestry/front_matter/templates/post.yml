@@ -28,4 +28,5 @@ fields:
     max: 
   label: Tags
 pages:
+- _posts/infix-postfix-and-prefix.md
 - _posts/stack-এবং-প্লেটের-বাক্সের-গল্প.md
