@@ -28,5 +28,5 @@ fields:
     max: 
   label: Tags
 pages:
-- _posts/tree-এবং-binary-tree-ডাটা-স্ট্রাকচার.md
+- _posts/2019-07-13-tree-এবং-binary-tree-ডাটা-স্ট্রাকচার.md
 - _posts/stack-এবং-প্লেটের-বাক্সের-গল্প.md
