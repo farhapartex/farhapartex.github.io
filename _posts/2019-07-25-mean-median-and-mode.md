@@ -2,7 +2,7 @@
 layout: post
 date: 2019-07-25T09:15:19.000+00:00
 title: Mean, Median & Mode (বিখ্যাত তিনজন তারকার গল্প)
-image: ''
+image: "/uploads/stand-normal-distrib02.jpg"
 tags: []
 
 ---
