@@ -15,4 +15,4 @@ tags:
 
 ![](/uploads/distance-between-two-points.png)
 
-<img src="/uploads/distance-between-two-points.png">
+<center><img src="/uploads/distance-between-two-points.png" style=""></center>
