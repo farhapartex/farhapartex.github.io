@@ -1,5 +1,5 @@
 ---
-layout: Let's play with Django User model
+layout: post
 date: 2020-04-29 10:10:09 +0000
 title: Let's play with Django User model
 image: ''
