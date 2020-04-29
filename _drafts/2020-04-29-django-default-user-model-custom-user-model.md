@@ -1,7 +1,7 @@
 ---
 layout: Django default user model & custom user model
 date: 2020-04-29 10:10:09 +0000
-title: Django default user model & custom user model
+title: Let's play with Django User model
 image: ''
 tags: []
 
