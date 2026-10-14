@@ -1,0 +1,16 @@
+{% comment %} Usage: {% include post-list.html posts=some_posts %} {% endcomment %}
+<ul class="post-list">
+  {% for post in include.posts %}
+    <li class="post-item">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <h3 class="post-item-title">{{ post.title }}</h3>
+        <p class="post-item-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
+        <div class="post-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d, %Y' }}</time>
+          {% if post.categories.size > 0 %}<span class="dot">·</span><span>{{ post.categories | join: ', ' }}</span>{% endif %}
+          <span class="dot">·</span><span>{% include reading-time.html content=post.content %}</span>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

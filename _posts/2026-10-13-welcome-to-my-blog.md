@@ -1,7 +1,7 @@
 ---
 title: Welcome to My Blog
 date: 2026-10-13 10:00:00 +0600
-categories: [General, Getting Started]
+categories: [Backend]
 tags: [intro, markdown]
 ---
 
@@ -32,7 +32,6 @@ Put images in `assets/img/posts/` and reference them like this:
 ![Sample diagram](/assets/img/posts/sample.svg){: width="600" }
 _An optional caption written in italics right below the image_
 
-## Tip box
+## Note
 
-> Chirpy supports tip, info, warning and danger boxes.
-{: .prompt-tip }
+> Use a blockquote to highlight a tip or note.

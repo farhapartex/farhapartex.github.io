@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    {% if page.categories.size > 0 %}
+      <p class="eyebrow">
+        {% for cat in page.categories %}
+          {% assign nav = site.data.navigation | where: "title", cat | first %}
+          {% if nav %}<a href="{{ nav.url | relative_url }}">{{ cat }}</a>{% else %}{{ cat }}{% endif %}{% unless forloop.last %} · {% endunless %}
+        {% endfor %}
+      </p>
+    {% endif %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+      <span class="dot">·</span><span>{% include reading-time.html content=content %}</span>
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.tags.size > 0 %}
+    <ul class="chips post-tags">
+      {% for tag in page.tags %}<li>#{{ tag }}</li>{% endfor %}
+    </ul>
+  {% endif %}
+
+  <nav class="post-nav">
+    {% if page.previous %}
+      <a class="prev" href="{{ page.previous.url | relative_url }}"><span class="muted small">← Previous</span>{{ page.previous.title }}</a>
+    {% else %}<span></span>{% endif %}
+    {% if page.next %}
+      <a class="next" href="{{ page.next.url | relative_url }}"><span class="muted small">Next →</span>{{ page.next.title }}</a>
+    {% endif %}
+  </nav>
+</article>

@@ -1,0 +1,33 @@
+# Everything on the home page comes from this file.
+# TODO: replace the placeholder values with your real details.
+
+name: Md Nazmul Hasan
+role: Software Engineer
+location: Dhaka, Bangladesh
+photo: # e.g. /assets/img/profile.jpg (leave empty to hide)
+
+# A short introduction. Markdown is allowed.
+bio: |
+  I'm a software engineer who enjoys building reliable backend systems.
+  This blog is where I write about what I learn along the way.
+
+expertise:
+  - Python
+  - Django
+  - FastAPI
+  - PostgreSQL
+  - Docker
+
+domains:
+  - SaaS products
+  - Data-driven applications
+
+experience:
+  - role: Software Engineer
+    company: Company Name
+    period: 20XX — Present
+    summary: What you work on here.
+  - role: Software Engineer
+    company: Company Name
+    period: 2018 — 20XX
+    summary: What you worked on here.

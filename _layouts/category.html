@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% assign posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
+
+<header class="page-header">
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}<p class="muted">{{ page.description }}</p>{% endif %}
+  <p class="muted small">{{ posts.size }} {% if posts.size == 1 %}post{% else %}posts{% endif %}</p>
+</header>
+
+{% if posts.size > 0 %}
+  {% include post-list.html posts=posts %}
+{% else %}
+  <p class="empty">No posts in this category yet. Check back soon.</p>
+{% endif %}
+
+{{ content }}
