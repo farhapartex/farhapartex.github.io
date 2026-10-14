@@ -1,26 +1,5 @@
 ---
-layout: default
-title: মোঃ নাজমুল হাসান
-
+layout: home
+# Home page. Edit your introduction in `_home.md` (Markdown); it appears above the "Recent Posts" list.
 ---
-<div class="home" id="home">
-  <h2 class="pageTitle">সাম্প্রতিক লেখা সমূহ</h2>
-  <ul class="posts noList">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
-      </li>
-    {% endfor %}
-  </ul>
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
-    {% endif %}
-  </div>
-</div>
+{% capture intro %}{% include_relative _home.md %}{% endcapture %}{{ intro | markdownify }}
